@@ -18,12 +18,13 @@ interface Service {
 
     companion object {
         fun create(): Service {
-
             val retrofit = Retrofit.Builder()
                 .addCallAdapterFactory(
-                    RxJava2CallAdapterFactory.create())
+                    RxJava2CallAdapterFactory.create()
+                )
                 .addConverterFactory(
-                    GsonConverterFactory.create())
+                    GsonConverterFactory.create()
+                )
                 .baseUrl("http://api.apixu.com/v1/")
                 .build()
 
