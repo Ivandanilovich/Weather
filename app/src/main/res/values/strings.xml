@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <string name="country">Страна</string>
+    <string name="city">Город</string>
+    <string name="wind">Сила ветра</string>
+    <string name="feels_like">Ощущается</string>
+    <string name="temp">Температура</string>
+    <string name="key">ae129e848cf74559a8d95151191201</string>
+    <string-array name="cities">
+        <item>Tomsk</item>
+        <item>Moscow</item>
+    </string-array>
+</resources>
